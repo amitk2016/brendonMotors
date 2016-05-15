@@ -1,3 +1,13 @@
+@font-face {
+	font-family: "Aleo-Regular";
+	src: url(../fonts/Aleo-Regular.otf);
+}
+
+@font-face {
+	font-family: "Aleo-Bold";
+	src: url(../fonts/Aleo-Bold.otf);
+}
+
 /*body{
 	background-image: url(../img/bg.jpg);
 	background-size: cover;
@@ -8,8 +18,9 @@
 	background-image: url(../img/bg1.jpg);
 	background-size: cover;
 	height:700px;
-	opacity: 0.2;*/
-}
+	opacity: 0.2;
+}*/
+
 #body-container img{
 	max-width: 100%;
 }
@@ -19,6 +30,7 @@ nav h1{
 	opacity: 1;
 	line-height: 52.5px;
 	margin-right:15px;
+	font-family: "Aleo-Bold";
 }
 #contact{
 	text-align: center;
@@ -32,7 +44,7 @@ nav h1{
 	clear: both;
 }
 #contact a{
-	background-color: green;
+	background-color: green;	
 }
 #contact a img{
 	width: 40px;
